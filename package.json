@@ -1,0 +1,11 @@
+{
+  "name": "clarkit",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.13.3",
+    "bookshelf": "^0.8.1",
+    "express": "~4.13.3",
+    "knex": "^0.8.6",
+    "method-override": "~2.3.5"
+  }
+}
