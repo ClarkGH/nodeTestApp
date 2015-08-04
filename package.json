@@ -1,0 +1,24 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "latest",
+    "gulp": "latest"
+  },
+  "description": "A test application for the MEAN stack",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClarkGH/nodeTestApp.git"
+  },
+  "author": "clark hinchcliff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ClarkGH/nodeTestApp/issues"
+  },
+  "homepage": "https://github.com/ClarkGH/nodeTestApp#readme"
+}
