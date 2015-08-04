@@ -2,8 +2,8 @@
 var express = require('express');
 var app = express();
 
-app.get('/index.html', function (req, res) {
-  res.send('index.html');
+app.get('/', function (req, res) {
+  res.send('GET request to the page goes here');
 });
 
 var server = app.listen(3000, function () {
