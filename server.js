@@ -2,6 +2,7 @@
 var express = require('express');
 var app = express();
 
+app.use(express.static(__dirname + '/'));
 app.get('/', function (req, res) {
   // res.send('GET request to the page goes here');
   res.sendFile(__dirname + '/index.html');
